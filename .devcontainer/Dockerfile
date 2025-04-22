@@ -8,3 +8,7 @@ RUN apt-get update \
 
 RUN pip install --upgrade pip && \
     ln -s /usr/bin/python3 /usr/bin/python
+
+RUN sudo pip install flask
+
+RUN sudo npm install -g @vue/cli
